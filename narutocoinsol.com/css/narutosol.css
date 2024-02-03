@@ -1,0 +1,252 @@
+:root {
+    --white: white;
+    --black: black;
+}
+
+.section {
+    width: 100vw;
+    height: 90vh;
+    background-image: url('../images/narutologo.png'), url('../images/253216b0vdlctahcpg6l9sfivk-7a8887dda55c5ccd4727d48cd939d427.png'), url('../images/image\ 35.png'), radial-gradient(circle, #ffc65c, #ff9205);
+    background-position: 50% 10%, 50% 110%, 50% 100%, 0 0;
+    background-repeat: no-repeat, no-repeat, no-repeat, repeat;
+    background-size: 750px, 700px, cover, auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.section-2 {
+    width: 100vw;
+    height: 10vh;
+    max-width: none;
+    background-color: #ff8b2e;
+    border: 5px solid #000;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    overflow: hidden;
+}
+
+.heading {
+    color: #fd892e;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Noto Sans JP, sans-serif;
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 45px;
+}
+
+.div-block {
+    padding: 10px;
+}
+
+.link-block {
+    text-decoration: none;
+    position: absolute;
+    top: 10%;
+    bottom: auto;
+    left: auto;
+    right: 10%;
+}
+
+.heading-2 {
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    color: #000;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Inconsolata, monospace;
+    font-size: 25px;
+    line-height: 25px;
+    display: flex;
+}
+
+.div-block-2 {
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    flex-direction: column;
+    align-items: flex-end;
+    display: flex;
+    position: absolute;
+    top: 3%;
+    bottom: auto;
+    left: auto;
+    right: 3%;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.icon.sml {
+    width: 25px;
+    height: 25px;
+    color: #000;
+}
+
+.link-block-2 {
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    justify-content: flex-end;
+    align-items: center;
+    text-decoration: none;
+    display: flex;
+}
+
+.link-block-2:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+.text-block {
+    color: #000;
+    font-family: Inconsolata, monospace;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 22px;
+    text-decoration: none;
+}
+
+.div-block-3 {
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    background-color: #ff8b2e;
+    border: 3px solid #000;
+    border-radius: 50px;
+    margin-bottom: 0;
+    padding: 10px 40px;
+    display: flex;
+    overflow: hidden;
+}
+
+.icon-2 {
+    width: 24px;
+    height: 24px;
+    color: #160042;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.div-block-4 {
+    overflow: hidden;
+}
+
+.div-block-5 {
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.socials {
+    color: #fff;
+    text-align: center;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000;
+    text-shadow: 0 5px #000;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 42px;
+}
+
+.div-block-6 {
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    display: flex;
+    position: absolute;
+    top: 3%;
+    bottom: auto;
+    left: 3%;
+    right: auto;
+}
+
+.link {
+    color: #fff;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+    text-shadow: -3px 3px #000;
+    margin-top: 0;
+    padding-top: 0;
+    font-family: Naruto, sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.link.nope {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+    text-decoration: line-through;
+}
+
+.body {
+    max-width: 100vw;
+}
+
+.image {
+    width: 200px;
+    position: absolute;
+    top: auto;
+    bottom: 10%;
+    left: auto;
+    right: 25%;
+}
+
+.image-2 {
+    width: auto;
+    height: 40px;
+}
+
+@media screen and (max-width: 479px) {
+    .section {
+        background-image: url('../images/narutologo.png'), url('../images/253216b0vdlctahcpg6l9sfivk-7a8887dda55c5ccd4727d48cd939d427.png'), url('../images/gasgaggaahg_Artboard-2.svg');
+        background-position: 50% 60%, 50% 100%, 0 0;
+        background-repeat: no-repeat, no-repeat, repeat;
+        background-size: 300px, 350px, cover;
+    }
+    .div-block-2 {
+        right: 11%;
+    }
+    .socials {
+        font-size: 25px;
+        line-height: 28px;
+    }
+    .div-block-6 {
+        top: 19%;
+        left: 8%;
+    }
+    .link,
+    .link.nope {
+        font-size: 25px;
+    }
+    .image {
+        width: 100px;
+        right: 10%;
+    }
+}
+
+@font-face {
+    font-family: 'Naruto';
+    src: url('../fonts/njnaruto.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
